@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st 
 import pickle
 
-pickle_in = open('D:/Python/Stroke Prediction Web App Project/model1.pkl','rb')
+pickle_in = open('model1.pkl','rb')
 model = pickle.load(pickle_in)
 
 def prediction(data):
